@@ -1,6 +1,6 @@
 ![logo](https://camo.githubusercontent.com/365c25491be66980bf5399ec714ce98f8a66f7559e86620fa047fd076c77a828/68747470733a2f2f7669736d652e636f2f626c6f672f77702d636f6e74656e742f75706c6f6164732f323032302f30332f616e696d6174696f6e2d736f6674776172652d6865616465722d776964652e676966)
 <h1 align="center">Hi 👋, I'm Aayush Mishra</h1>
-<h3 align="center">I'm an Automation QA Engineer.</h3>
+<h3 align="center">I'm an Software Development Engineer in Test (SDET).</h3>
 <img align="right" alt="Coding" width="400" src="https://cdn.dribbble.com/users/1162077/screenshots/3848914/programmer.gif">
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=aayush-mishraa&label=Profile%20views&color=0e75b6&style=flat" alt="aayush-mishraa" /> </p>
 
@@ -35,6 +35,19 @@
 ## About Me
 
 I'm an Automation QA Engineer with a solid educational background in Computer Science, holding an MSc in Data Science. My journey in the tech industry has been an exciting one, and I'm now deeply passionate about venturing into the world of Artificial Intelligence.
+
+## 🔭 I'm currently working on
+
+- Microservices Testing Automation Framework
+- Working on Creating a Single Automation Framework that will be able to run UI/API/Mobile Automated Tests Automatically. 
+- Postman Newman Automated Test 
+<p align="center">    
+<img src="https://raw.githubusercontent.com/jatin99/jatin99.github.io/main/images/postmanproject.jpg" alt="Jatin | Whatsapp" width="500px"/> </p>
+
+## 🌱 I'm currently learning
+
+- I am currently exploring the worlds of Cloud especially AWS Services that can be used to improve the Automation Testing Process for products. 
+
 
 ## 🌟 Key Skills
 
@@ -71,6 +84,38 @@ I'm committed to developing my career in Artificial Intelligence, and my current
 ## 🚀 Goals
 
 My goal is to leverage my strong foundation in data science and QA automation to contribute to the exciting field of Artificial Intelligence, working on innovative projects and applications that push the boundaries of technology.
+
+
+## 💼 Technical Skills
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white" alt="Java">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript">
+  <img src="https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white" alt="Selenium">
+  <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white" alt="Postman">
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL">
+  <img src="https://img.shields.io/badge/JMeter-D22128?style=for-the-badge&logo=apache%20jmeter&logoColor=white" alt="JMeter">
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker">
+  <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white" alt="AWS">
+  <img src="https://img.shields.io/badge/Azure-0089D6?style=for-the-badge&logo=microsoft-azure&logoColor=white" alt="Azure">
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git">
+  <img src="https://img.shields.io/badge/GitLab-FCA121?style=for-the-badge&logo=gitlab&logoColor=white" alt="GitLab">
+</p>
+
+## 🥇 Certifications
+<p align="center">
+  <img src="https://raw.githubusercontent.com/jatin99/jatin99.github.io/main/images/ISTQB.png" alt="Jatin | ISTQB" width="100 px"/>
+  <img src="https://raw.githubusercontent.com/jatin99/jatin99.github.io/main/images/aws-cp.png" alt="Jatin | AWS-CP" width="100 px"/>
+  <img src="https://raw.githubusercontent.com/jatin99/jatin99.github.io/main/images/aws-dev.png" alt="Jatin | AWS-DEV" width="100 px"/>
+  <img src="https://raw.githubusercontent.com/jatin99/jatin99.github.io/main/images/aws-sa.png" alt="Jatin | AWS-SA" width="100 px"/>
+   <img src="https://raw.githubusercontent.com/jatin99/jatin99.github.io/main/images/ocpjp.png" alt="Jatin | AWS-SA" width="100 px"/>
+    <img src="https://raw.githubusercontent.com/jatin99/jatin99.github.io/main/images/safe.png" alt="Jatin | AWS-SA" width="100 px"/>
+     <img src="https://raw.githubusercontent.com/jatin99/jatin99.github.io/main/images/csm.webp" alt="Jatin | AWS-SA" width="100 px"/>
+</p>
+
+<p align="center">💬 If you have any questions or feedback, please don't hesitate to reach out to me!</p>
+
 
 ## 📫 Let's Connect
 
