@@ -41,8 +41,8 @@ I'm an Automation QA Engineer with a solid educational background in Computer Sc
 - Microservices Testing Automation Framework
 - Working on Creating a Single Automation Framework that will be able to run UI/API/Mobile Automated Tests Automatically. 
 - Postman Newman Automated Test 
-<p align="center">    
-<img src="https://raw.githubusercontent.com/jatin99/jatin99.github.io/main/images/postmanproject.jpg" alt="Jatin | Whatsapp" width="500px"/> </p>
+ 
+
 
 ## 🌱 I'm currently learning
 
