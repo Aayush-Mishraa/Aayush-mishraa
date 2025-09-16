@@ -10,11 +10,11 @@
 
 - 🌱 I’m currently learning **Machine learing**
 
-- 👨‍💻 All of my projects are available at [https://aayushmishra.in/](https://aayushmishra.in/)
+- 👨‍💻 All of my projects are available at [https://aayushmishra.tech/](https://aayushmishra.tech/)
 
 - 💬 Ask me about **Selenium, Postman**
 
-- 📫 How to reach me **contact@aayushmishra.in**
+- 📫 How to reach me **Aayushmishra026@gmail.com**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
