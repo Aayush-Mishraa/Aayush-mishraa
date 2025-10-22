@@ -12,7 +12,7 @@
 
 - 👨‍💻 All of my projects are available at [https://aayushmishra.tech/](https://aayushmishra.tech/)
 
-- 💬 Ask me about **Selenium, Postman**
+- 💬 Ask me about **Selenium, Playwirght, Postman, RestAssured**
 
 - 📫 How to reach me **Aayushmishra026@gmail.com**
 
