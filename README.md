@@ -107,7 +107,7 @@ My goal is to leverage my strong foundation in data science and QA automation to
 <p align="center">💬 If you have any questions or feedback, please don't hesitate to reach out to me!</p>
 
 
-## 📫 Let's Connect
+## 📫 Let's Connect ->
 
 I'm always open to connecting with fellow AI enthusiasts, professionals, and anyone interested in tech. Feel free to reach out to me through [LinkedIn](https://www.linkedin.com/in/aayushmishra33/) or [Twitter](https://twitter.com/Aayush_Mishraa).
 
