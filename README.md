@@ -1,6 +1,19 @@
-![logo](https://camo.githubusercontent.com/365c25491be66980bf5399ec714ce98f8a66f7559e86620fa047fd076c77a828/68747470733a2f2f7669736d652e636f2f626c6f672f77702d636f6e74656e742f75706c6f6164732f323032302f30332f616e696d6174696f6e2d736f6674776172652d6865616465722d776964652e676966)
-<h1 align="center">Hi 👋, I'm Aayush Mishra</h1>
-<h3 align="center">I'm an Software Development Engineer in Test (SDET).</h3>
+
+  <!-- Main Header with Better Animation -->
+<h1 align="center"><img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:70a5fd,100:0d1117&height=200&section=header&text=Aayush%20Mishra&fontSize=50&fontColor=fff&animation=fadeIn&fontAlignY=35&desc=Software%20Engineer&descAlignY=55&descSize=20" width="100%"/>
+  <!-- Dynamic Typing Effect -->
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=28&duration=3000&pause=1000&color=00D4FF&center=true&vCenter=true&repeat=true&width=800&height=60&lines=Crafting+Clean+Code+%F0%9F%9A%80;Building+Scalable+Solutions+%E2%9A%A1;Turning+Ideas+Into+Reality+%F0%9F%92%A1;Always+Learning+%26+Growing+%F0%9F%8C%B1" alt="Typing SVG" />
+  
+  <br/>
+  
+  <!-- Decorative Line -->
+  <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="900">
+  </h1>
+
+
+<!-- Second HEADER BANNER -->
+
+
 <img align="right" alt="Coding" width="400" src="https://cdn.dribbble.com/users/1162077/screenshots/3848914/programmer.gif">
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=aayush-mishraa&label=Profile%20views&color=0e75b6&style=flat" alt="aayush-mishraa" /> </p>
 
@@ -33,6 +46,10 @@
 
 
 ## About Me
+
+<h1 align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&duration=2800&pause=700&color=0EA5E9&center=true&vCenter=true&width=1000&lines=Software+Development+Engineer+in+Test+(SDET);5%2B+Years+Experience+in+QA+%26+Automation;API+Testing+%7C+UI+Automation+%7C+CI%2FCD;Postman+%7C+Newman+%7C+Playwright+%7C+Selenium;Jenkins+%7C+GitHub+Actions+%7C+Docker;Cloud+Testing+on+AWS;Quality+Driven+%7C+Automation-First+Mindset;Always+Learning+%26+Improving" />
+</h1>
 
 I'm an Automation QA Engineer with a solid educational background in Computer Science, holding an MSc in Data Science. My journey in the tech industry has been an exciting one, and I'm now deeply passionate about venturing into the world of Artificial Intelligence.
 
