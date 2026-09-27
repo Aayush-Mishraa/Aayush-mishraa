@@ -12,8 +12,8 @@
 </p>
 
 <p align="center">
-  <a href="https://aayushmishra.tech/"><img src="https://img.shields.io/badge/Portfolio-aayushmishra.tech-0A0F1F?style=for-the-badge&logo=googlechrome&logoColor=22D3EE&labelColor=0A0F1F" alt="Portfolio" /></a>
-  <a href="https://linkedin.com/in/aayush-mishra072/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A0F1F?style=for-the-badge&labelColor=0A0F1F&color=22D3EE" alt="LinkedIn" /></a>
+  <a href="https://aayushmishra.engineer/"><img src="https://img.shields.io/badge/Portfolio-aayushmishra.tech-0A0F1F?style=for-the-badge&logo=googlechrome&logoColor=22D3EE&labelColor=0A0F1F" alt="Portfolio" /></a>
+  <a href="https://www.linkedin.com/in/aayushmishra33/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A0F1F?style=for-the-badge&labelColor=0A0F1F&color=22D3EE" alt="LinkedIn" /></a>
   <a href="mailto:Aayushmishra026@gmail.com"><img src="https://img.shields.io/badge/Email-Say_hello-0A0F1F?style=for-the-badge&logo=gmail&logoColor=A78BFA&labelColor=0A0F1F&color=A78BFA" alt="Email" /></a>
   <a href="https://twitter.com/Aayush_Mishraa"><img src="https://img.shields.io/badge/@Aayush__Mishraa-0A0F1F?style=for-the-badge&logo=x&logoColor=E2E8F0" alt="X" /></a>
 </p>
