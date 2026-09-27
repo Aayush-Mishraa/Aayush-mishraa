@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="380" viewBox="0 0 1200 380" role="img" aria-labelledby="t d">
+<title id="t">Aayush Mishra, Senior SDET and Automation Architect</title>
+<desc id="d">A test runner reporting passing suites for UI, API, AI agents, LLM evaluations, RAG and red-teaming.</desc>
+<defs>
+  <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+    <path d="M32 0H0V32" fill="none" stroke="#15203A" stroke-width="1"/>
+  </pattern>
+  <radialGradient id="glow" cx="18%" cy="30%" r="70%">
+    <stop offset="0" stop-color="#A78BFA" stop-opacity=".22"/>
+    <stop offset=".55" stop-color="#22D3EE" stop-opacity=".05"/>
+    <stop offset="1" stop-color="#0A0F1F" stop-opacity="0"/>
+  </radialGradient>
+  <linearGradient id="fade" x1="0" x2="1">
+    <stop offset="0" stop-color="#fff" stop-opacity=".9"/><stop offset=".6" stop-color="#fff" stop-opacity=".35"/><stop offset="1" stop-color="#fff" stop-opacity=".15"/>
+  </linearGradient>
+  <mask id="gm"><rect width="1200" height="380" fill="url(#fade)"/></mask>
+  <linearGradient id="beam" x1="0" x2="1">
+    <stop offset="0" stop-color="#22D3EE" stop-opacity="0"/><stop offset=".5" stop-color="#22D3EE" stop-opacity=".18"/><stop offset="1" stop-color="#22D3EE" stop-opacity="0"/>
+  </linearGradient>
+  <linearGradient id="rule" x1="0" x2="1">
+    <stop offset="0" stop-color="#22D3EE"/><stop offset="1" stop-color="#A78BFA"/>
+  </linearGradient>
+  <clipPath id="clip"><rect width="1200" height="380" rx="18"/></clipPath>
+</defs>
+<style>
+  text{font-family:'JetBrains Mono','SF Mono','Cascadia Code',Consolas,'Liberation Mono',monospace;font-size:15px}
+  .ln{opacity:0;animation-duration:14.0s;animation-iteration-count:infinite;animation-timing-function:ease-out}
+  .cursor{animation:blink 1s steps(1) infinite}
+  @keyframes blink{50%{opacity:0}}
+  .beam{animation:sweep 7s cubic-bezier(.6,0,.4,1) infinite}
+  @keyframes sweep{0%{transform:translateX(-260px)}60%,100%{transform:translateX(1260px)}}
+  .pulse{animation:pulse 2.4s ease-in-out infinite}
+  @keyframes pulse{0%,100%{opacity:.35}50%{opacity:1}}
+  @keyframes k0{0%,2.86%{opacity:0;transform:translateX(-6px)}4.64%,90%{opacity:1;transform:translateX(0)}96%,100%{opacity:0}}@keyframes k1{0%,10.00%{opacity:0;transform:translateX(-6px)}11.79%,90%{opacity:1;transform:translateX(0)}96%,100%{opacity:0}}@keyframes k2{0%,16.43%{opacity:0;transform:translateX(-6px)}18.21%,90%{opacity:1;transform:translateX(0)}96%,100%{opacity:0}}@keyframes k3{0%,22.86%{opacity:0;transform:translateX(-6px)}24.64%,90%{opacity:1;transform:translateX(0)}96%,100%{opacity:0}}@keyframes k4{0%,29.29%{opacity:0;transform:translateX(-6px)}31.07%,90%{opacity:1;transform:translateX(0)}96%,100%{opacity:0}}@keyframes k5{0%,35.71%{opacity:0;transform:translateX(-6px)}37.50%,90%{opacity:1;transform:translateX(0)}96%,100%{opacity:0}}@keyframes k6{0%,42.14%{opacity:0;transform:translateX(-6px)}43.93%,90%{opacity:1;transform:translateX(0)}96%,100%{opacity:0}}@keyframes kz{0%,50.71%{opacity:0;transform:translateX(-6px)}52.50%,90%{opacity:1;transform:translateX(0)}96%,100%{opacity:0}}
+  @media (prefers-reduced-motion: reduce){.ln{animation:none;opacity:1}.beam,.cursor,.pulse{animation:none}.beam{display:none}}
+</style>
+<g clip-path="url(#clip)">
+  <rect width="1200" height="380" fill="#0A0F1F"/>
+  <rect width="1200" height="380" fill="url(#grid)" mask="url(#gm)"/>
+  <rect width="1200" height="380" fill="url(#glow)"/>
+  <rect class="beam" x="0" y="0" width="200" height="380" fill="url(#beam)"/>
+
+  <text x="60" y="92" fill="#7C8BA5" font-size="15">~/aayush-mishraa <tspan fill="#22D3EE">main</tspan></text>
+  <text x="58" y="160" fill="#E2E8F0" style="font-family:'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif;font-size:60px;font-weight:700;letter-spacing:-1.5px">Aayush Mishra</text>
+  <rect x="60" y="182" width="120" height="3" rx="1.5" fill="url(#rule)"/>
+  <text x="60" y="222" fill="#22D3EE" style="font-family:'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif;font-size:23px;font-weight:600">Senior SDET &amp; Automation Architect</text>
+  <text x="60" y="256" fill="#7C8BA5" style="font-family:'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif;font-size:18px">Testing software, and the AI that runs inside it.</text>
+  <g transform="translate(60 292)" style="font-size:13px">
+    <circle class="pulse" cx="6" cy="10" r="5" fill="#34D399"/>
+    <text x="20" y="15" fill="#E2E8F0" style="font-size:14px">Automation frameworks  <tspan fill="#A78BFA">+</tspan>  LLM and agent evaluation</text>
+  </g>
+
+  <rect x="690" y="44" width="460" height="292" rx="12" fill="#0E1629" stroke="#1F2B48"/>
+  <line x1="690" x2="1150" y1="62" y2="62" stroke="#1F2B48" opacity="0"/>
+  <text class="ln" style="animation-name:k0" x="714" y="90"><tspan fill="#22D3EE">$</tspan> <tspan fill="#E2E8F0">run quality-suite --profile aayush</tspan></text><text class="ln" style="animation-name:k1" x="714" y="120" xml:space="preserve"><tspan fill="#34D399">✓</tspan><tspan x="736" fill="#E2E8F0">ui</tspan><tspan x="850" fill="#7C8BA5">playwright  selenium  appium</tspan></text><text class="ln" style="animation-name:k2" x="714" y="147" xml:space="preserve"><tspan fill="#34D399">✓</tspan><tspan x="736" fill="#E2E8F0">api</tspan><tspan x="850" fill="#7C8BA5">restassured  postman/newman</tspan></text><text class="ln" style="animation-name:k3" x="714" y="174" xml:space="preserve"><tspan fill="#34D399">✓</tspan><tspan x="736" fill="#E2E8F0">agents</tspan><tspan x="850" fill="#7C8BA5">playwright-mcp  test-agents</tspan></text><text class="ln" style="animation-name:k4" x="714" y="201" xml:space="preserve"><tspan fill="#34D399">✓</tspan><tspan x="736" fill="#E2E8F0">llm-evals</tspan><tspan x="850" fill="#7C8BA5">deepeval  g-eval  hallucination</tspan></text><text class="ln" style="animation-name:k5" x="714" y="228" xml:space="preserve"><tspan fill="#34D399">✓</tspan><tspan x="736" fill="#E2E8F0">rag</tspan><tspan x="850" fill="#7C8BA5">ragas  faithfulness  recall</tspan></text><text class="ln" style="animation-name:k6" x="714" y="255" xml:space="preserve"><tspan fill="#34D399">✓</tspan><tspan x="736" fill="#E2E8F0">red-team</tspan><tspan x="850" fill="#7C8BA5">promptfoo  prompt-injection</tspan></text><g class="ln" style="animation-name:kz"><line x1="714" x2="1126" y1="280" y2="280" stroke="#1F2B48"/><text x="714" y="304" xml:space="preserve"><tspan fill="#34D399">6 suites passed</tspan><tspan x="920" fill="#7C8BA5">quality gate </tspan><tspan fill="#22D3EE">open </tspan><tspan class="cursor" fill="#22D3EE">▋</tspan></text></g>
+</g>
+</svg>
