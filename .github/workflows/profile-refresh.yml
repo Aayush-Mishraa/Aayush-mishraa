@@ -5,8 +5,14 @@
 name: Refresh profile cards
 
 on:
-  schedule:
-    - cron: "30 0 * * *"      # daily, 06:00 IST
+    schedule:
+    - cron: "17,47 8-17 * * 1"   # Monday: 20 runs, every 30 min
+    - cron: "17 8-17 * * 5"      # Friday: 10 runs, hourly
+    - cron: "17 8-16/2 * * 6"    # Saturday: 5 runs, every 2 hours
+    - cron: "17 8,16 * * 2"      # Tuesday: 2 runs
+    - cron: "17 8 * * 3"         # Wednesday: 1 run
+    - cron: "17 8 * * 4"         # Thursday: 1 run
+    
   workflow_dispatch:
   push:
     paths:
