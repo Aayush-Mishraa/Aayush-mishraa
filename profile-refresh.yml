@@ -1,0 +1,127 @@
+# Builds every card on the profile inside this repo, so nothing depends on
+# rate-limited public servers. Runs daily, and on demand from the Actions tab.
+name: Refresh profile cards
+
+on:
+  schedule:
+    - cron: "30 0 * * *"      # daily, 06:00 IST
+  workflow_dispatch:
+  push:
+    paths:
+      - ".github/workflows/profile-refresh.yml"
+      - "scripts/**"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-refresh
+  cancel-in-progress: true
+
+env:
+  THEME: bg_color=0A0F1F&title_color=22D3EE&icon_color=A78BFA&text_color=E2E8F0&border_color=1F2B48
+
+jobs:
+  cards:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v7
+
+      # ---------- GitHub stats + languages ----------
+      - name: Stats card
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: stats
+          options: username=${{ github.repository_owner }}&show_icons=true&include_all_commits=true&hide_border=true&ring_color=22D3EE&custom_title=GitHub%20stats&${{ env.THEME }}
+          path: profile/stats.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Top languages card
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: top-langs
+          options: username=${{ github.repository_owner }}&layout=compact&langs_count=8&hide=html,css&hide_border=true&${{ env.THEME }}
+          path: profile/top-langs.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      # ---------- Featured project cards ----------
+      - name: Pin - AI agent testing (Amazon Nova Act)
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: pin
+          options: username=${{ github.repository_owner }}&repo=AI-Agent-Test-Using-Amazon-Nova-Act&description_lines_count=3&${{ env.THEME }}
+          path: profile/pin-ai-agent.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Pin - Full-stack e-commerce testing
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: pin
+          options: username=${{ github.repository_owner }}&repo=FullStack-E-Commerce-Testing&description_lines_count=3&${{ env.THEME }}
+          path: profile/pin-fullstack.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Pin - Playwright API framework
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: pin
+          options: username=${{ github.repository_owner }}&repo=API-Automation-Framework-Playwright&description_lines_count=3&${{ env.THEME }}
+          path: profile/pin-api.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Pin - Playwright + Cucumber BDD
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: pin
+          options: username=${{ github.repository_owner }}&repo=Playwright-With-Cucumber-Using-JS&description_lines_count=3&${{ env.THEME }}
+          path: profile/pin-bdd.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Pin - AutoCart Selenium framework
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: pin
+          options: username=${{ github.repository_owner }}&repo=AutoCart-Engine-FW-&description_lines_count=3&${{ env.THEME }}
+          path: profile/pin-autocart.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Pin - Phoenix warranty API tests
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: pin
+          options: username=${{ github.repository_owner }}&repo=Phoenix-Inwarranty-Flow-API-Tests-&description_lines_count=3&${{ env.THEME }}
+          path: profile/pin-phoenix.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      # ---------- Streak ----------
+      - name: Streak card
+        uses: DenverCoder1/github-readme-streak-stats@v1
+        with:
+          options: user=${{ github.repository_owner }}&hide_border=true&background=0A0F1F&ring=22D3EE&fire=A78BFA&currStreakNum=E2E8F0&sideNums=E2E8F0&currStreakLabel=22D3EE&sideLabels=7C8BA5&dates=7C8BA5&stroke=1F2B48
+          path: profile/streak.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      # ---------- Activity graph (our own script, no external service) ----------
+      - name: Activity graph
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 scripts/activity_graph.py --user "${{ github.repository_owner }}" --out profile/activity.svg
+
+      # ---------- Contribution snake ----------
+      - name: Snake
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            profile/snake.svg?color_snake=#0891B2&color_dots=#EBEDF0,#A5F3FC,#67E8F9,#22D3EE,#0891B2
+            profile/snake-dark.svg?palette=github-dark&color_snake=#A78BFA&color_dots=#15203A,#0E4A5C,#0E7490,#06B6D4,#22D3EE
+
+      # ---------- Commit ----------
+      - name: Commit updated cards
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add profile/
+          git commit -m "chore: refresh profile cards" || echo "No changes"
+          git push
